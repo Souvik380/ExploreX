@@ -1,0 +1,1 @@
+web gunicorn ExploreX.wsgi:application --log-file -

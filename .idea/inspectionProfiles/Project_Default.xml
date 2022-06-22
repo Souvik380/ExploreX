@@ -1,0 +1,29 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="16">
+            <item index="0" class="java.lang.String" itemvalue="PyJWT-2.4.0.dist-info" />
+            <item index="1" class="java.lang.String" itemvalue="rest_framework" />
+            <item index="2" class="java.lang.String" itemvalue="pip-21.2.4.dist-info" />
+            <item index="3" class="java.lang.String" itemvalue="ADMIN-DETAILS" />
+            <item index="4" class="java.lang.String" itemvalue="djangorestframework-3.13.1.dist-info" />
+            <item index="5" class="java.lang.String" itemvalue="pytz-2022.1.dist-info" />
+            <item index="6" class="java.lang.String" itemvalue="psycopg2-2.9.3.dist-info" />
+            <item index="7" class="java.lang.String" itemvalue="setuptools-58.1.0.dist-info" />
+            <item index="8" class="java.lang.String" itemvalue="asgiref-3.5.0.dist-info" />
+            <item index="9" class="java.lang.String" itemvalue="sqlparse-0.4.2.dist-info" />
+            <item index="10" class="java.lang.String" itemvalue="distutils-precedence.pth" />
+            <item index="11" class="java.lang.String" itemvalue="tzdata-2021.5.dist-info" />
+            <item index="12" class="java.lang.String" itemvalue="pkg_resources" />
+            <item index="13" class="java.lang.String" itemvalue="rest_framework_simplejwt" />
+            <item index="14" class="java.lang.String" itemvalue="Django-4.0.3.dist-info" />
+            <item index="15" class="java.lang.String" itemvalue="pep8-1.7.1.dist-info" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
