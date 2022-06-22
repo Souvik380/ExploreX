@@ -141,3 +141,10 @@ MEDIA_ROOT=os.path.join(BASE_DIR,'media')
 
 django_heroku.settings(locals())
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+class DisableMigrations(object):
+    def __contains__(self, item):
+        return True
+    def __getitem__(self, item):
+        return "notmigrations"
+        MIGRATION_MODULES = DisableMigrations()
