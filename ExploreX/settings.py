@@ -78,12 +78,25 @@ WSGI_APPLICATION = 'ExploreX.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
+
+
+DATABASES={
+    'default':{
+        'ENGINE':'django.db.backends.postgresql_psycopg2',
+        'NAME':'d270rn5l8c9aqj',
+        'USER':'mhnslvrsujrmzc',
+        'PASSWORD':'3496981d4eae6ba04937a189a5d9ed2c639a3684956e456a222ce853d157e71b',
+        'HOST':'ec2-44-206-89-185.compute-1.amazonaws.com',
+        'PORT':'5432'
     }
 }
+
 
 
 REST_FRAMEWORK = {
@@ -142,9 +155,9 @@ MEDIA_ROOT=os.path.join(BASE_DIR,'media')
 django_heroku.settings(locals())
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-class DisableMigrations(object):
-    def __contains__(self, item):
-        return True
-    def __getitem__(self, item):
-        return "notmigrations"
-        MIGRATION_MODULES = DisableMigrations()
+# class DisableMigrations(object):
+#     def __contains__(self, item):
+#         return True
+#     def __getitem__(self, item):
+#         return "notmigrations"
+# MIGRATION_MODULES = DisableMigrations()
